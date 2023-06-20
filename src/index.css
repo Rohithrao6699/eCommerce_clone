@@ -1,0 +1,209 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  background-image: url("src/images/homepage.png.webp");
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-radius: 0 0 10px 10px;
+    margin: 0 auto;
+  }
+
+nav a{
+  text-decoration: none;
+}
+
+.nav-div{
+  align-items: center;
+  display: flex;
+  padding-left: 25px;
+  width: 0%;
+}
+
+
+
+.nav-h1{
+  font-weight: bolder;
+  font-size: 100px;
+  text-decoration: none;
+  justify-content: center;
+  margin: 15%;
+  width: 0%;
+}
+
+.nav-home {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: rgb(56, 58, 60);
+  transition: all 0.3s ease 0s;
+  width: 0%;
+}
+
+.nav-home:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.about {
+  text-decoration: none;
+  color: rgb(56, 58, 60);
+  transition: all 0.3s ease 0s;
+  padding-left: 45px;
+  width: 0%;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.about:hover {
+ color: black;
+ text-decoration: underline;
+
+}
+
+.blog {
+  text-decoration: none;
+  color: rgb(56, 58, 60);
+  transition: all 0.3s ease 0s;
+  padding-left: 45px;
+  width: 0%;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.blog:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+
+.login {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  padding: 9px 25px;
+  margin: 2px;
+  transition: all 0.3s ease 0s;
+}
+
+.login:hover{
+  font-weight: 900;
+}
+
+.home{
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: aliceblue;
+  padding-right: 5%;
+}
+.home:hover{
+  color: cornflowerblue;
+}
+
+.cart {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: aliceblue;
+  padding-left: 75%;
+}
+.cart:hover{
+  color: cornflowerblue;
+}
+
+.logout{
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: aliceblue;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.logout:hover{
+  background-color: blue;
+}
+
+.home-outer{
+  display: flex;
+  margin: 10%;
+  padding-bottom: 15%;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px red;
+  background-color: red;
+}
+
+.home-logo{
+  width: 3000px;
+  height: 500px;
+}
+
+.about-h4{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(17, 18, 20);
+  margin: 30px;
+  margin-top: 70px;
+  font-weight: lighter;
+}
+
+.about-btn{
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(17, 18, 20);
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.blog-div{
+  margin: 30px;
+  margin-top: 70px;
+}
+
+.blog-h1{
+color: rgb(17, 18, 20);
+font-family: Geograph,Helvetica,Arial,sans-serif;
+font-weight: light;
+}
+
+.blog-h3{
+  color: rgb(17, 18, 20);
+font-family: sans-serif;
+font-weight: light;
+}
+
+.blog-h5{
+  color: rgb(17, 18, 20);
+font-family: sans-serif;
+font-weight: lighter;
+}
+
+
+
+
+
+
